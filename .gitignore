@@ -1,0 +1,24 @@
+# --- OS Metadata ---
+.DS_Store
+Thumbs.db
+
+# --- Sensitive API Keys (CRITICAL for RAG/AI projects) ---
+.env
+*.env
+
+# --- Jupyter Notebook Artifacts ---
+.ipynb_checkpoints/
+
+# --- Python Environment & Cache ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# --- Data & Vector Stores ---
+# (Usually data files, PDFs, and vector databases like Chroma/FAISS are too large for Git)
+data/
+*.csv
+*.parquet
+*.sqlite3
